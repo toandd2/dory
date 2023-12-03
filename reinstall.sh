@@ -26,7 +26,7 @@ else
   fi
 fi
 
-echo 'Installing nemo'
+echo 'Installing dory'
 if [[ "$INSTALL_OPTION" == "dev" ]]; then
     ${PIP} install --editable ".[all]"
 else
